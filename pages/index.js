@@ -283,7 +283,7 @@ export default function Home() {
   return (
     <div style={{overflowX: 'hidden'}}>
       <Head>
-        <title>Create Next App</title>
+        <title>CCAA Test</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
