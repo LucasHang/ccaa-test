@@ -46,6 +46,15 @@ const Button = styled.button`
   transition: box-shadow 0.3s;
 `;
 
+const MarvelBgImage = styled.div`
+  height: 100%; 
+  width: 100%;
+  background-image: url('images/marvel-studios.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+`;
+
 export default function Home() {
 
   const downloadPdf = useCallback(() => {
@@ -289,7 +298,7 @@ export default function Home() {
 
       <Container>
         <Header>
-          <img src="images/marvel-studios.jpeg" height="100%" />
+          <MarvelBgImage/>
           <h1>
             CONFIDENTIAL
             <br/>
